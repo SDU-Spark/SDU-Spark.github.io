@@ -1,0 +1,86 @@
+body {
+  font-size: 15px;
+  line-height: 26px;
+  background-color: #ffffff;
+  font-family: 'Roboto', serif;
+  color: #5e5e5e;
+}
+
+h4 {
+  font-size: 19px;
+  line-height: 29px;
+  margin-bottom: 14px;
+  color: #111111;
+}
+
+a {
+  color: #111111;
+  text-decoration: none !important;
+}
+
+.section {
+  padding: 4rem 0;
+  display: block;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.blog-list .blog-meta.big-meta h4 {
+  font-size: 28px;
+  margin: 0;
+  padding: 1rem 0 0.6rem;
+}
+
+.blog-meta.big-meta p {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0;
+}
+
+.blog-meta small {
+  font-size: 11px;
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: #111111;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+}
+
+.blog-meta small:after {
+  content: '/';
+  padding-left: 1rem;
+}
+
+.blog-meta small:last-child:after {
+  content: '';
+}
+
+hr.invis {
+  border: 0;
+  margin: 2rem 0;
+}
+
+.post-media {
+  position: relative;
+  overflow: hidden;
+}
+
+.post-media img {
+  width: 100%;
+}
+
+.hovereffect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  opacity: 0.5;
+}
+
+.post-media:hover .hovereffect {
+  opacity: 1;
+}
