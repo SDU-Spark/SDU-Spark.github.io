@@ -175,16 +175,19 @@ ul.nav.navbar-nav {
 }
 /*-- slider --*/
 .slider {
-  background: url(../img/1.jpg) no-repeat 0px 0px;
+  background: url(https://s3.bmp.ovh/imgs/2024/08/14/26cb3da7fb7b9f17.jpg)
+    no-repeat 0px 0px;
   background-size: cover;
   min-height: 762px;
 }
 .slider1 {
-  background: url(../img/2.jpg) no-repeat 0px 0px;
+  background: url(https://s3.bmp.ovh/imgs/2024/08/14/f005ca565f2f3f3c.jpg)
+    no-repeat 0px 0px;
   background-size: cover;
 }
 .slider2 {
-  background: url(../img/3.jpg) no-repeat 0px 0px;
+  background: url(https://s3.bmp.ovh/imgs/2024/08/14/5a21dbe9826f7965.jpg)
+    no-repeat 0px 0px;
   background-size: cover;
 }
 .slider-grid {
