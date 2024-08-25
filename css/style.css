@@ -88,7 +88,7 @@ ul.nav.navbar-nav li a {
   text-transform: uppercase;
 }
 ul.nav.navbar-nav li a:hover {
-  color: #2196f3 !important;
+  color: #000000 !important;
 }
 ul.nav.navbar-nav li a:focus {
   outline: none;
@@ -168,7 +168,7 @@ ul.nav.navbar-nav {
   color: #2196f3 !important;
 }
 .top-nav ul li a.active {
-  color: #2196f3 !important;
+  color: #000000 !important;
 }
 .caret {
   margin-left: 14px;
