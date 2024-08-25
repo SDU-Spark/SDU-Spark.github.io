@@ -144,8 +144,7 @@ ul.nav.navbar-nav li.active a {
   margin-right: 0;
 }
 ul.nav.navbar-nav {
-  float: right;
-  margin: 2em 0 0 0;
+  margin: 20px 0 0 0;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -1053,12 +1052,13 @@ footer p a:hover {
     position: relative;
   }
   .navbar-nav {
+    width: 100%;
     float: none;
     margin: 0;
     text-align: center;
   }
   .navbar-toggle {
-    margin-top: 2em;
+    margin-top: 15px;
     margin-right: 0;
   }
   div#bs-example-navbar-collapse-1 {
